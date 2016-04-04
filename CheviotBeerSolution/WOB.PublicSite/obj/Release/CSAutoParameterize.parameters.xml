@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DBInformation-Web.config Connection String" description="DBInformation Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\ProjectsV12;Initial Catalog=WOB.SQLDatabase_1;Integrated Security=True;Pooling=False;Connect Timeout=30" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\joe\\documents\\visual\ studio\ 2015\\Projects\\CheviotBeerSolution\\WOB\.PublicSite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBInformation']/@connectionString" />
+  </parameter>
+</parameters>

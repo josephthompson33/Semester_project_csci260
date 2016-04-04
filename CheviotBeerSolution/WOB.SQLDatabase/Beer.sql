@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Beer]
+(
+	[BeerID] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [name] NVARCHAR(50) NOT NULL, 
+    [brewery] NVARCHAR(50) NOT NULL, 
+    [type] NVARCHAR(50) NOT NULL, 
+    [IBU] FLOAT NOT NULL, 
+    [abv] FLOAT NOT NULL
+)
